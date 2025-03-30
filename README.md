@@ -101,7 +101,7 @@ git branch -d имя_ветки удаление ветки
 
 ### Схема статустов в git
 ```mermaid
-Статусы Git
+graph TD
     untracked --> staged
     staged --> tracked
     modified --> staged
