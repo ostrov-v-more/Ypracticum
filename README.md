@@ -75,9 +75,9 @@ Git branch -m имя_ветки имя2_ветки переименовывае�
 Git branch -d имя_ветки удаление ветки
 
 ```mermaid
-  Статусы Git;
-      untracked-->staged;
-      staged-->tracked;
-      modified-->staged;
-      tracked-->modified;
+graph TD
+    untracked --> staged
+    staged --> tracked
+    modified --> staged
+    tracked --> modified
 ```
